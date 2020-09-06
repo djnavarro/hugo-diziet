@@ -1,0 +1,12 @@
+name = "diziet"
+license = "MIT"
+licenselink = "https://github.com/djnavarro/hugo-diziet/blob/master/LICENSE.md"
+description = "Diziet: A gallery-style Hugo theme for R users"
+homepage = "https://github.com/djnavarro/hugo-diziet/"
+tags = ["minimal", "blog", "personal"]
+features = ["blog"]
+min_version = "0.0.1"
+
+[author]
+  name = "Danielle Navarro"
+  homepage = "https://djnavarro.net"
