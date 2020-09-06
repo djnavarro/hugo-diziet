@@ -15,10 +15,10 @@ $(document).ready(function(){
   //-------- Active Sticky Js ----------//
      $(".default-header").sticky({topSpacing:0});
 
-  
+
   //------- Active Nice Select --------//
      $('select').niceSelect();
-    
+
 
 
     $('.active-slider').owlCarousel({
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
 
 
-     
+
    // -------   Active Mobile Menu-----//
 
   $(".menu-bar").on('click', function(e){
@@ -61,7 +61,7 @@ $(document).ready(function(){
           gallery:{
           enabled:true
           }
-      });  
+      });
   };
 
 
@@ -76,8 +76,8 @@ $(document).ready(function(){
     .click(function(event) {
       // On-page links
       if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-        && 
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
         location.hostname == this.hostname
       ) {
         // Figure out element to scroll to
@@ -104,46 +104,5 @@ $(document).ready(function(){
         }
       }
     });
-
-
-      $( function() {
-          $( "#datepicker" ).datepicker();
-          $( "#datepicker2" ).datepicker();
-       });
-
-    
-
-      // -------   Mail Send ajax
-
-         $(document).ready(function() {
-            var form = $('#myForm'); // contact form
-            var submit = $('.submit-btn'); // submit button
-            var alert = $('.alert-msg'); // alert div for show alert message
-
-            // form submit event
-            form.on('submit', function(e) {
-                e.preventDefault(); // prevent default form submit
-
-                $.ajax({
-                    url: 'mail.php', // form action url
-                    type: 'POST', // form submit method get/post
-                    dataType: 'html', // request type html/json/xml
-                    data: form.serialize(), // serialize form data
-                    beforeSend: function() {
-                        alert.fadeOut();
-                        submit.html('Sending....'); // change submit button text
-                    },
-                    success: function(data) {
-                        alert.html(data).fadeIn(); // fade in response data
-                        form.trigger('reset'); // reset form
-                        submit.attr("style", "display: none !important");; // reset submit button text
-                    },
-                    error: function(e) {
-                        console.log(e)
-                    }
-                });
-            });
-        });
-
 
  });
