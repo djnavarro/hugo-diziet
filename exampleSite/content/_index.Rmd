@@ -1,5 +1,4 @@
 ---
-output: hugodown::md_document
 title: "Art by Danielle Navarro"
 summary: "Art by Danielle Navarro"
 trailer: "gallery/turmite/preview/turmite_16b.png"
