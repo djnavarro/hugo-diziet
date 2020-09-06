@@ -1,0 +1,42 @@
+---
+output: hugodown::md_document
+title: "Art by Danielle Navarro"
+summary: "Art by Danielle Navarro"
+trailer: "gallery/turmite/preview/turmite_16b.png"
+rmd_hash: 8574ab0119733d8d
+
+---
+
+<!-- Start About Area -->
+<section class="gallery-area section-gap" id="about">
+
+<div class="container">
+
+<div class="row d-flex align-items-center">
+
+<div class="col-lg-3 about-left">
+
+<img class="img-fluid" src="./splash/profile3.png" alt="">
+
+</div>
+
+<div class="col-lg-9 about-right">
+
+<p style="font-size:110%">
+
+I'm a computational artist based in Sydney, living on Gadigal land, and making generative art using the R programming language. You can often find me making a nuisance of myself and posting artwork on [twitter](https://twitter.com/djnavarro) and [instagram](https://www.instagram.com/daniellenavarro77/). I sometimes post the source code to [github](https://github.com/djnavarro). In my other life I am an [academic](https://djnavarro.net/) at the University of New South Wales.
+
+At the moment I don't sell my art or make prints, but don't let that stop you if you would like one! Unless stated otherwise all the artwork on the site is released under a Creative Commons licence (specifically, CC-BY-SA 4.0), so you are welcome to reuse the art for most purposes so long as you attribute the original work to me, and any derivative works are also covered by the same licence.
+
+Although I don't ask for money myself, if you like my artwork and would like to show your support, please consider donating to charity rather than to me. Three worthy organisations I sometimes suggest are the Sydney [Inner City Legal Centre](https://www.iclc.org.au/) (donation page [here](https://www.iclc.org.au/donate-now/)), the NSW [Sex Worker Outreach Project](https://swop.org.au/) (donation page [here](https://swop.org.au/get-involved/donate)) and [Black Rainbow](http://www.blackrainbow.org.au/) (donation page [here](http://www.blackrainbow.org.au/donate/))
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- End About Area -->
+
