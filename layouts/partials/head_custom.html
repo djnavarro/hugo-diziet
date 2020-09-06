@@ -1,0 +1,47 @@
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Favicon-->
+<link rel="shortcut icon" href="img/fav.png">
+
+<!-- meta character set -->
+<meta charset="UTF-8">
+
+<meta name="description" content="Art by Danielle Navarro"/>
+<meta name="twitter:title" content="Art by Danielle Navarro"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:url" content="https://art.djnavarro.net"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:creator" content="@djnavarro"/>
+<meta name="twitter:site" content="@djnavarro"/>
+<meta name="og:title" content="Art by Danielle Navarro"/>
+<meta name="og:description" content=""/>
+<meta name="og:url" content="https://art.djnavarro.net"/>
+<meta name="og:type" content="website"/>
+<meta name="og:locale" content="en_US"/>
+<meta name="article:author" content="Danielle Navarro"/>
+
+<meta name="twitter:image:src" content="http://art.djnavarro.net{{ .Params.Trailer | relURL }}"/>
+<meta name="og:image" content="http://art.djnavarro.net{{ .Params.Trailer | relURL }}"/>
+
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+
+<!-- CSS ============================================= -->
+<link rel="stylesheet" href="{{ "/css/linearicons.css" | relURL }}" />
+<link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | relURL }}" />
+<link rel="stylesheet" href="{{ "/css/magnific-popup.css" | relURL }}" />
+<link rel="stylesheet" href="{{ "/css/nice-select.css" | relURL }}" />
+<link rel="stylesheet" href="{{ "/css/owl.carousel.css" | relURL }}" />
+<link rel='stylesheet' href="{{ "/css/simplelightbox.min.css"  | relURL }}" />
+<link rel="stylesheet" href="{{ "/css/bootstrap.css" | relURL }}" />
+<link rel="stylesheet" href="{{ "/css/main.css" | relURL }}" />
+
+
+
+<!-- css for syntax highlighting -->
+<link rel='stylesheet' href='{{ "css/highlight.css" | relURL }}' title='hl'>
+{{ range .Params.html_dependencies }}
+  {{ . | safeHTML }}
+{{ end }}

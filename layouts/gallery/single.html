@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "header.html" . }}
+
+  <body>
+
+    <!-- Start gallery area -->
+    <section class="gallery-area section-gap">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 pb-30 header-text">
+          <h1 class="text-white">{{ .Title | markdownify }}</h1>
+
+          <p>{{ .Summary | markdownify }}</p>
+        </div>
+      </div>
+
+      <div class="gal">
+
+        <!-- Add gallery content -->
+        {{ .Content }}
+
+        <!-- footer inside gallery div -->
+        {{ partial "footer.html" . }}
+
+      </div>
+    </div>
+    </section>
+
+
+  </body>
+</html>
