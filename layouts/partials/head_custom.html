@@ -22,34 +22,36 @@
 <meta name="twitter:image:src" content="http://art.djnavarro.net{{ .Params.Trailer | relURL }}"/>
 <meta name="og:image" content="http://art.djnavarro.net{{ .Params.Trailer | relURL }}"/>
 
-
+<!-- googlefonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 
-<!-- vendor CSS links -->
+<!-- bootstrap -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<!-- owl carousel: http://owlcarousel2.github.io/OwlCarousel2/ -->
+<!-- note... deprecated, switch to tiny-slider? -->
+<link rel="stylesheet" href="https://cdn.boomcdn.com/libs/owl-carousel/2.2.0/assets/owl.carousel.css">
+<script src="https://cdn.boomcdn.com/libs/owl-carousel/2.2.0/owl.carousel.js"></script>
+
+<!-- simple lightbox: https://simplelightbox.com/ -->
+<link rel='stylesheet' href="{{ "/css/simplelightbox.min.css"  | relURL }}" />
+<script src="{{ "/js/simplelightbox.min.js"  | relURL }}"></script>
+
+
 <!--
-<link rel="stylesheet" href="{{ "/css/linearicons.css" | relURL }}" />
-<link rel="stylesheet" href="{{ "/css/font-awesome.min.css" | relURL }}" />
 <link rel="stylesheet" href="{{ "/css/magnific-popup.css" | relURL }}" />
 <link rel="stylesheet" href="{{ "/css/nice-select.css" | relURL }}" />
-<link rel="stylesheet" href="{{ "/css/owl.carousel.css" | relURL }}" />
-<link rel='stylesheet' href="{{ "/css/simplelightbox.min.css"  | relURL }}" />
 -->
 
-<!-- local CSS -->
+<!-- theme CSS & JS -->
 <link rel="stylesheet" href="{{ "/css/main.css" | relURL }}" />
+<script src="{{ "/js/main.js"  | relURL }}"></script>
 
 
-
-
-
-
-
-<!-- css for syntax highlighting -->
+<!-- syntax highlighting -->
 <link rel='stylesheet' href='{{ "css/highlight.css" | relURL }}' title='hl'>
 {{ range .Params.html_dependencies }}
   {{ . | safeHTML }}
