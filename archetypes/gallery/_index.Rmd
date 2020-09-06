@@ -1,0 +1,11 @@
+---
+output: hugodown::md_document
+title: "{{ title }}"
+date: {{ date }}
+summary: ''
+---
+
+```{r echo=FALSE, results='asis'}
+source("gallery.R")
+make_gallery()
+```
