@@ -25,16 +25,17 @@
 <!-- googlefonts -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 
-<!-- bootstrap -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- bootstrap, popper and jquery -->
+<link rel="stylesheet" href="{{ "/css/bootstrap.css" | relURL }}" />
+<script src="{{ "/js/jquery-2.2.4.min.js" | relURL }}" /></script>
+<script src="{{ "/js/bootstrap.min.js" | relURL }}" /></script>
+<script src="{{ "/js/popper.min.js" | relURL }}" /></script>
 
-<!-- owl carousel: http://owlcarousel2.github.io/OwlCarousel2/ -->
-<!-- note... deprecated, switch to tiny-slider? -->
-<link rel="stylesheet" href="https://cdn.boomcdn.com/libs/owl-carousel/2.2.0/assets/owl.carousel.css">
-<script src="https://cdn.boomcdn.com/libs/owl-carousel/2.2.0/owl.carousel.js"></script>
+<!-- owl carousel -->
+<!-- http://owlcarousel2.github.io/OwlCarousel2 -->
+<!-- note... this is now deprecated, switch to tiny-slider? -->
+<link rel="stylesheet" href="{{ "/css/owl.carousel.css" | relURL }}" />
+<script src="{{ "/js/owl.carousel.min.js" | relURL }}" /></script>
 
 <!-- simple lightbox: https://simplelightbox.com/ -->
 <link rel='stylesheet' href="{{ "/css/simplelightbox.min.css"  | relURL }}" />
@@ -53,8 +54,6 @@
 <!-- nice select -->
 <link rel="stylesheet" href="{{ "/css/nice-select.css" | relURL }}" />
 <script src="{{ "/js/jquery.nice-select.min.js" | relURL }}" /></script>
-
-
 
 <!-- syntax highlighting -->
 <link rel='stylesheet' href='{{ "css/highlight.css" | relURL }}' title='hl'>
