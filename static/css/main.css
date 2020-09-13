@@ -1904,7 +1904,9 @@ h6 {
     text-align: left; } }
 
 .footer-bottom {
-  padding: 25px 0; }
+  padding: 25px 0;
+  text-align: center;
+}
 
 .footer-text a, .footer-text i {
   color: #7a77ff; }
