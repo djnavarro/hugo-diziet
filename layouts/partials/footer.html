@@ -9,6 +9,40 @@ hljs.configure({languages: []});
 hljs.initHighlightingOnLoad();
 </script>
 
+
+
 {{ partial "foot_custom.html" . }}
+
+  {{ with .Site.Params.footer }}
+  <div class="container">
+  <div class="row footer-bottom d-flex justify-content-between">
+  {{ . | markdownify }}
+  <br/><br/>
+  </div>
+  </div>
+  {{ end }}
+
+
+<!-- bootstrap, popper and jquery -->
+<script type="text/javascript" src="{{ "/js/jquery-2.2.4.min.js" | relURL }}" /></script>
+<script type="text/javascript" src="{{ "/js/popper.min.js" | relURL }}" /></script>
+<script type="text/javascript" src="{{ "/js/bootstrap.min.js" | relURL }}" /></script>
+
+<!-- owl carousel: http://owlcarousel2.github.io/OwlCarousel2 -->
+<script type="text/javascript" src="{{ "/js/owl.carousel.min.js" | relURL }}" /></script>
+
+<!-- simple lightbox: https://simplelightbox.com/ -->
+<script type="text/javascript" src="{{ "/js/simple-lightbox.js"  | relURL }}"></script>
+<script type="text/javascript" src="{{ "/js/simple-lightbox.jquery.js"  | relURL }}"></script>
+
+<!-- theme CSS & JS -->
+<script type="text/javascript" src="{{ "/js/main.js"  | relURL }}"></script>
+<script type="text/javascript" src="{{ "/js/jquery.sticky.js" | relURL }}" /></script>
+
+<!-- magnific-popup -->
+<script type="text/javascript" src="{{ "/js/jquery.magnific-popup.min.js"  | relURL }}"></script>
+
+<!-- nice select -->
+<script type="text/javascript" src="{{ "/js/jquery.nice-select.min.js" | relURL }}" /></script>
 
 </footer>
