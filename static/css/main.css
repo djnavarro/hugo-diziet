@@ -11,7 +11,7 @@ body {
 
 section {
   background-color: #222;
-  padding-top: 30px;
+  padding-bottom: 100px;
 }
 
 ol, ul {
@@ -53,75 +53,29 @@ h6, .h6 { font-size: 14px; }
 
 
 
-.about-area {
-  background-color: #222; }
+/* ---------------- about area formatting ---------------------- */
 
 .about-right {
   padding-right: 8%;
   padding-left: 5%; }
-  @media (max-width: 1199px) {
-    .about-right {
-      padding-left: 5%;
-      padding-right: 5%; }
-      .about-right h1 {
-        font-size: 25px; } }
-  @media (max-width: 991px) {
-    .about-right {
-      padding-top: 50px;
-      padding-bottom: 50px; } }
+
+@media (max-width: 1199px) {  /* medium screens */
+  .about-right {
+    padding-left: 5%;
+    padding-right: 5%; }
   .about-right h1 {
-    margin-bottom: 20px; }
-  .about-right .form-control {
-    border-radius: 0;
-    background-color: transparent;
-    border: 1px solid #656463;
-    color: #fff;
-    font-size: 14px;
-    padding: 12px; }
-  .about-right input, .about-right textarea {
-    font-size: 14px;
-    font-weight: 200;
-    background-color: transparent;
-    border: 1px solid #656463;
-    padding: 12px;
-    color: #fff; }
-  .about-right .option {
-    color: #222; }
-  .about-right .nice-select span {
-    color: #ccc;
-    font-size: 14px;
-    font-weight: 200; }
-  .about-right textarea {
-    height: 150px; }
-  .about-right .list {
-    width: 100%; }
-  .about-right .payment-method {
-    color: #ccc;
-    margin-top: 30px; }
+    font-size: 25px;
+  }
+}
 
-.callto-area h1 {
-  font-weight: 700;
-  color: #fff; }
-.callto-area .btn-white {
-  border: 1px solid #777;
-  color: #222;
-  font-weight: 500;
-  background: #fff;
-  border: 1px solid transparent;
-  text-transform: uppercase;
-  border: 1px solid transparent;
-  font-size: 14px;
-  border-radius: 20px;
-  padding: 12px 28px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
-  .callto-area .btn-white:hover {
-    color: #fff;
-    border: 1px solid transparent;
-    cursor: pointer; }
+@media (max-width: 991px) { /* small screens */
+  .about-right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
 
+/* ---------------- footer area formatting ---------------------- */
 
 .footer-area {
   background-color: #222222; }
@@ -132,14 +86,6 @@ h6, .h6 { font-size: 14px; }
       .footer-area .footer-nav li a:hover {
         color: #7a77ff; }
 
-h6 {
-  color: #fff;
-  margin-bottom: 25px;
-  font-size: 18px;
-  font-weight: 600; }
-
-
-
 .footer-bottom {
   padding: 25px 0;
   text-align: center;
@@ -147,49 +93,6 @@ h6 {
 
 .footer-text a, .footer-text i {
   color: #7a77ff; }
-
-.whole-wrap {
-  background-color: #fff; }
-
-.generic-banner {
-  text-align: center; }
-  .generic-banner .height {
-    height: 600px; }
-    @media (max-width: 767px) {
-      .generic-banner .height {
-        height: 400px; } }
-  .generic-banner .generic-banner-content h2 {
-    line-height: 1.2em;
-    margin-bottom: 20px; }
-    @media (max-width: 991px) {
-      .generic-banner .generic-banner-content h2 br {
-        display: none; } }
-  .generic-banner .generic-banner-content p {
-    text-align: center;
-    font-size: 16px; }
-    @media (max-width: 991px) {
-      .generic-banner .generic-banner-content p br {
-        display: none; } }
-
-.generic-content h1 {
-  font-weight: 600; }
-
-.about-generic-area {
-  background: #fff; }
-  .about-generic-area .border-top-generic {
-    border-top: 1px dotted #eee; }
-  .about-generic-area p {
-    margin-bottom: 20px; }
-
-.white-bg {
-  background: #fff; }
-
-.switch-wrap {
-  margin-bottom: 10px; }
-  .switch-wrap p {
-    margin: 0; }
-
-
 
 
 /* ---------------- formatting for the gallery tiles ---------------- */
