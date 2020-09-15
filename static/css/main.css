@@ -615,7 +615,6 @@ h6 {
 
 .splash-image {
   height: 100vh;
-  background-image: url("/splash/image1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
