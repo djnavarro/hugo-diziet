@@ -7,22 +7,7 @@
 
     {{ partial "splash.html" . }}
 
-    <!-- Start gallery area -->
-    <section class="gallery-area">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-8 pb-30 header-text">
-          <h1 class="text-white">{{ .Title | markdownify }}</h1>
-
-          <p>{{ .Summary | markdownify }}</p>
-        </div>
-      </div>
-
-      <div class="gal">
-        <!-- Add gallery content -->
-        {{ .Content }}
-      </div>
-    </div>
+    {{ .Content }}
 
     </section>
 
