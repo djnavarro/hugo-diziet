@@ -624,6 +624,12 @@ h6 {
   background-size: cover;
 }
 
+.container-fullwidth {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 
 
 
