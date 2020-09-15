@@ -18,27 +18,10 @@ select {
 figure {
   margin: 0; }
 
-a {
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
-
-iframe {
-  border: 0; }
-
 a, a:focus, a:hover {
   text-decoration: none;
-  outline: 0; }
-
-.btn.active.focus,
-.btn.active:focus,
-.btn.focus,
-.btn.focus:active,
-.btn:active:focus,
-.btn:focus {
-  text-decoration: none;
-  outline: 0; }
+  outline: 0;
+}
 
 .card-panel {
   margin: 0;
@@ -94,297 +77,6 @@ h6, .h6 {
 td, th {
   border-radius: 0px; }
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.clear::before, .clear::after {
-  content: " ";
-  display: table; }
-.clear::after {
-  clear: both; }
-
-.fz-11 {
-  font-size: 11px; }
-
-.fz-12 {
-  font-size: 12px; }
-
-.fz-13 {
-  font-size: 13px; }
-
-.fz-14 {
-  font-size: 14px; }
-
-.fz-15 {
-  font-size: 15px; }
-
-.fz-16 {
-  font-size: 16px; }
-
-.fz-18 {
-  font-size: 18px; }
-
-.fz-30 {
-  font-size: 30px; }
-
-.fz-48 {
-  font-size: 48px !important; }
-
-.fw100 {
-  font-weight: 100; }
-
-.fw300 {
-  font-weight: 300; }
-
-.fw400 {
-  font-weight: 400 !important; }
-
-.fw500 {
-  font-weight: 500; }
-
-.f700 {
-  font-weight: 700; }
-
-.fsi {
-  font-style: italic; }
-
-.mt-10 {
-  margin-top: 10px; }
-
-.mt-15 {
-  margin-top: 15px; }
-
-.mt-20 {
-  margin-top: 20px; }
-
-.mt-25 {
-  margin-top: 25px; }
-
-.mt-30 {
-  margin-top: 30px; }
-
-.mt-35 {
-  margin-top: 35px; }
-
-.mt-40 {
-  margin-top: 40px; }
-
-.mt-50 {
-  margin-top: 50px; }
-
-.mt-60 {
-  margin-top: 60px; }
-
-.mt-70 {
-  margin-top: 70px; }
-
-.mt-80 {
-  margin-top: 80px; }
-
-.mt-100 {
-  margin-top: 100px; }
-
-.mt-120 {
-  margin-top: 120px; }
-
-.mt-150 {
-  margin-top: 150px; }
-
-.ml-0 {
-  margin-left: 0 !important; }
-
-.ml-5 {
-  margin-left: 5px !important; }
-
-.ml-10 {
-  margin-left: 10px; }
-
-.ml-15 {
-  margin-left: 15px; }
-
-.ml-20 {
-  margin-left: 20px; }
-
-.ml-30 {
-  margin-left: 30px; }
-
-.ml-50 {
-  margin-left: 50px; }
-
-.mr-0 {
-  margin-right: 0 !important; }
-
-.mr-5 {
-  margin-right: 5px !important; }
-
-.mr-15 {
-  margin-right: 15px; }
-
-.mr-10 {
-  margin-right: 10px; }
-
-.mr-20 {
-  margin-right: 20px; }
-
-.mr-30 {
-  margin-right: 30px; }
-
-.mr-50 {
-  margin-right: 50px; }
-
-.mb-0 {
-  margin-bottom: 0px; }
-
-.mb-0-i {
-  margin-bottom: 0px !important; }
-
-.mb-5 {
-  margin-bottom: 5px; }
-
-.mb-10 {
-  margin-bottom: 10px; }
-
-.mb-15 {
-  margin-bottom: 15px; }
-
-.mb-20 {
-  margin-bottom: 20px; }
-
-.mb-25 {
-  margin-bottom: 25px; }
-
-.mb-30 {
-  margin-bottom: 30px; }
-
-.mb-40 {
-  margin-bottom: 40px; }
-
-.mb-50 {
-  margin-bottom: 50px; }
-
-.mb-60 {
-  margin-bottom: 60px; }
-
-.mb-70 {
-  margin-bottom: 70px; }
-
-.mb-80 {
-  margin-bottom: 80px; }
-
-.mb-90 {
-  margin-bottom: 90px; }
-
-.mb-100 {
-  margin-bottom: 100px; }
-
-.pt-0 {
-  padding-top: 0px; }
-
-.pt-10 {
-  padding-top: 10px; }
-
-.pt-15 {
-  padding-top: 15px; }
-
-.pt-20 {
-  padding-top: 20px; }
-
-.pt-25 {
-  padding-top: 25px; }
-
-.pt-30 {
-  padding-top: 30px; }
-
-.pt-40 {
-  padding-top: 40px; }
-
-.pt-50 {
-  padding-top: 50px; }
-
-.pt-60 {
-  padding-top: 60px; }
-
-.pt-70 {
-  padding-top: 70px; }
-
-.pt-80 {
-  padding-top: 80px; }
-
-.pt-90 {
-  padding-top: 90px; }
-
-.pt-100 {
-  padding-top: 100px; }
-
-.pt-120 {
-  padding-top: 120px; }
-
-.pt-150 {
-  padding-top: 150px; }
-
-.pb-0 {
-  padding-bottom: 0px; }
-
-.pb-10 {
-  padding-bottom: 10px; }
-
-.pb-15 {
-  padding-bottom: 15px; }
-
-.pb-20 {
-  padding-bottom: 20px; }
-
-.pb-25 {
-  padding-bottom: 25px; }
-
-.pb-30 {
-  padding-bottom: 30px; }
-
-.pb-40 {
-  padding-bottom: 40px; }
-
-.pb-50 {
-  padding-bottom: 50px; }
-
-.pb-60 {
-  padding-bottom: 60px; }
-
-.pb-70 {
-  padding-bottom: 70px; }
-
-.pb-80 {
-  padding-bottom: 80px; }
-
-.pb-90 {
-  padding-bottom: 90px; }
-
-.pb-100 {
-  padding-bottom: 100px; }
-
-.pb-120 {
-  padding-bottom: 120px; }
-
-.pb-150 {
-  padding-bottom: 150px; }
-
-.pr-30 {
-  padding-right: 30px; }
-
-.pl-30 {
-  padding-left: 30px; }
-
-.pl-90 {
-  padding-left: 90px; }
-
-.p-40 {
-  padding: 40px; }
-
 .float-left {
   float: left; }
 
@@ -398,10 +90,8 @@ td, th {
   color: #fff; }
 
 .transition {
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+}
 
 .section-full {
   padding: 100px 0; }
@@ -869,30 +559,7 @@ h6 {
   font-size: 18px;
   font-weight: 600; }
 
-.copy-right-text i, .copy-right-text a {
-  color: #7a77ff; }
 
-.footer-social a {
-  padding: 10px 15px;
-  background: #111111;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
-  .footer-social a:hover i {
-    color: #fff; }
-.footer-social i {
-  color: #cccccc;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
-@media (max-width: 1199px) {
-  .footer-social {
-    margin-top: 30px; } }
-@media (max-width: 991px) {
-  .footer-social {
-    text-align: left; } }
 
 .footer-bottom {
   padding: 25px 0;
@@ -949,14 +616,17 @@ h6 {
 
 
 
-/* diziet css */
-
-.splash-image {
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
+/* the splash class needs background-image to be specified */
+.splash {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+
 
 .splash-caption {
   color: #fff;
