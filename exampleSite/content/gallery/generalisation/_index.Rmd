@@ -7,15 +7,12 @@ splash:
   caption: "Generalisation"
 ---
 
+```{r include=FALSE}
+source(here::here("diziet.R"))
+```
+
 Possibly, behind the diverse behaviors of humans and animals, as behind the various motions of planets and stars, we may discern the operation of universal laws (Roger Shepard)
 
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
-```
-
-
-```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```

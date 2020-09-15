@@ -4,7 +4,10 @@ date: {{ date }}
 summary: ''
 ---
 
+```{r include=FALSE}
+source(here::here("diziet.R"))
+```
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```

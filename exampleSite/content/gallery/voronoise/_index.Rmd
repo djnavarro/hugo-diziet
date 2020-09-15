@@ -1,12 +1,20 @@
 ---
 title: "Voronoise"
 date: 2020-05-06
-summary: '"I’ve been a bad bad girl<br>I’ve been careless<br>with a delicate man<br>and it’s a sad sad world<br>when a girl will break a boy<br>just because she can"<br>(Fiona Apple)'
+summary: '"'
 trailer: "gallery/voronoise/preview/voronoise_07.png"
+splash:
+  image: "gallery/voronoise/image/voronoise_07.png"
+  caption: "Voronoise"
 ---
 
+```{r include=FALSE}
+source(here::here("diziet.R"))
+```
+
+I’ve been a bad bad girl<br>I’ve been careless<br>with a delicate man<br>and it’s a sad sad world<br>when a girl will break a boy<br>just because she can<br>(Fiona Apple)
+
 ```{r echo=FALSE, results='asis'}
-source("gallery.R")
-make_gallery()
+diziet$make_gallery()
 ```
 
