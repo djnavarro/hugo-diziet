@@ -1956,4 +1956,33 @@ h6 {
   .switch-wrap p {
     margin: 0; }
 
-/*# sourceMappingURL=main.css.map */
+
+
+/* diziet css */
+
+.splash-image {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.splash-caption {
+  color: #fff;
+  text-align: right;
+  bottom: 85px;
+  font-size: 150%;
+}
+
+.splash-caption h2 {
+  color: #fff;
+  text-align: right;
+  bottom: 85px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  font-size: 200%;
+  font-variant: small-caps;
+}
