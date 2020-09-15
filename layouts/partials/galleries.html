@@ -1,0 +1,28 @@
+<section class="gallery-area">
+  <div class="container">
+  <div class="highlight">
+  <div class="gal">
+
+  {{ range .Sections }}
+  {{ range .Sections }}
+  {{ if isset .Params "trailer" }}
+
+    <a href="{{ .URL }}">
+      <span style="position: relative; text-align: left">
+        <div style = "position:relative">
+          <img src={{ .Params.Trailer | relURL }}>
+            <div style="color: white; background-color: #22222288; font-size: 120%; font-weight: 700; position: absolute; top: 88%; left: 0%; width:100%; height: 12%; padding 25px;">
+              <span style="margin-left:5px">{{ .Title | markdownify }}</span>
+            </div>
+          </div>
+      </span>
+    </a>
+
+  {{ end }}
+  {{ end }}
+  {{ end }}
+
+  </div>
+  </div>
+  </div>
+</section>
