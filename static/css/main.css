@@ -600,9 +600,6 @@ h6 {
   margin-bottom: 10px; }
   .switch-wrap p {
     margin: 0; }
-
-
-
 /* the splash class needs background-image to be specified */
 .splash-image {
   height: 100vh;
@@ -614,23 +611,17 @@ h6 {
 
 .splash-container {
   width: 100%;
+  position: relative;
   padding-left: 0;
   padding-right: 0;
 }
 
 .splash-caption {
+  position: absolute;
   color: #fff;
   text-align: right;
-  bottom: 85px;
-  font-size: 150%;
-}
-
-.splash-caption h2 {
-  color: #fff;
-  text-align: right;
-  bottom: 85px;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-  font-size: 200%;
-  font-variant: small-caps;
+  bottom: 20%;
+  right: 5%;
+  max-width: 80%;
+  font-size: 300%;
 }
