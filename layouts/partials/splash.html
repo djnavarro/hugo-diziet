@@ -7,19 +7,19 @@
 
         {{ if isset .Params "prefix" }}
           <div class="splash-caption-prefix">
-            {{ .Prefix | markdownify }}
+            {{ .Params.Prefix | markdownify }}
           </div>
         {{ end }}
 
         {{ if isset .Params "caption" }}
           <div class="splash-caption-main">
-            {{ .Caption | markdownify }}
+            {{ .Params.Caption | markdownify }}
           </div>
         {{ end }}
 
         {{ if isset .Params "suffix" }}
           <div class="splash-caption-suffix">
-            {{ .Suffix | markdownify }}
+            {{ .Params.Suffix | markdownify }}
           </div>
         {{ end }}
     </div>
