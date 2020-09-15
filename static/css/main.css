@@ -603,7 +603,8 @@ h6 {
 
 
 
-/* CSS classes for the splash images */
+
+/* ---------------- formatting for the splash images ---------------- */
 
 .splash-container {
   width: 100%;
@@ -614,7 +615,7 @@ h6 {
 
 .splash-image {
   height: 100vh;
-  background-image: url("/splash/image2.jpg");
+  background-image: url("/splash/image1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -623,25 +624,26 @@ h6 {
 .splash-caption-container {
   position: absolute;
   bottom: 20%;
-  right: 10%;
-  width: 80%;
+  right: 15%;
+  width: 70%;
 }
 
 .splash-caption-prefix, .splash-caption-suffix {
-  position: absolute;
+  position: relative;
   color: #fff;
   text-align: right;
-  font-size: 200%;
+  font-size: 150%;
+  padding-bottom: 15px;
 }
 
 .splash-caption-main {
-  position: absolute;
+  position: relative;
   color: #fff;
   text-align: right;
-  font-size: 300%;
+  font-size: 200%;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: 600;
+  padding-bottom: 15px;
 }
-
-
 
