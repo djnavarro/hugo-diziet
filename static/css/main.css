@@ -4,7 +4,7 @@ body {
   background-color: #222;
   color: #ddd;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
@@ -48,8 +48,8 @@ h1, .h1 { font-size: 36px; }
 h2, .h2 { font-size: 30px; }
 h3, .h3 { font-size: 24px; }
 h4, .h4 { font-size: 20px; }
-h5, .h5 { font-size: 16px; }
-h6, .h6 { font-size: 14px; }
+h5, .h5 { font-size: 18px; }
+h6, .h6 { font-size: 18px; }
 
 
 
