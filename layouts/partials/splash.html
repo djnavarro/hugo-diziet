@@ -3,7 +3,11 @@
 <section>
   <div class="splash-container">
     <div class="splash-image"></div>
-    <div class="splash-caption">{{ .Title | markdownify }}</div>
+    <div class="splash-caption-container">
+      <div class="splash-caption-prefix">{{ .Prefix | markdownify }}</div>
+      <div class="splash-caption-main">{{ .Main | markdownify }}</div>
+      <div class="splash-caption-suffix">{{ .Suffix | markdownify }}</div>
+    </div>
   </div>
 </section>
 <!-- end splash area -->

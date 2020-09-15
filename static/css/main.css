@@ -600,14 +600,10 @@ h6 {
   margin-bottom: 10px; }
   .switch-wrap p {
     margin: 0; }
-/* the splash class needs background-image to be specified */
-.splash-image {
-  height: 100vh;
-  background-image: url("/splash/image2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
+
+
+/* CSS classes for the splash images */
 
 .splash-container {
   width: 100%;
@@ -616,12 +612,36 @@ h6 {
   padding-right: 0;
 }
 
-.splash-caption {
+.splash-image {
+  height: 100vh;
+  background-image: url("/splash/image2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.splash-caption-container {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+  width: 80%;
+}
+
+.splash-caption-prefix, .splash-caption-suffix {
   position: absolute;
   color: #fff;
   text-align: right;
-  bottom: 20%;
-  right: 5%;
-  max-width: 80%;
-  font-size: 300%;
+  font-size: 200%;
 }
+
+.splash-caption-main {
+  position: absolute;
+  color: #fff;
+  text-align: right;
+  font-size: 300%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+
