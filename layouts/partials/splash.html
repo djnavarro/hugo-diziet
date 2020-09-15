@@ -13,7 +13,9 @@
 
         {{ if isset .Params.Splash "caption" }}
           <div class="splash-caption-main">
-            {{ .Params.Splash.Caption | markdownify }}
+            <div class="splash-caption-tweak">
+              {{ .Params.Splash.Caption | markdownify }}
+            </div>
           </div>
         {{ end }}
 
