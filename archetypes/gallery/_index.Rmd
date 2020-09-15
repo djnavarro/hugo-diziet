@@ -5,7 +5,7 @@ summary: ''
 ---
 
 ```{r include=FALSE}
-source("../../diziet.R")) # diziet.R is in the "content" folder
+source("../../diziet.R") # diziet.R is in the "content" folder
 ```
 
 ```{r echo=FALSE, results='asis'}
