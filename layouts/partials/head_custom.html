@@ -22,29 +22,3 @@
 <meta name="twitter:image:src" content="http://art.djnavarro.net{{ .Params.Trailer | relURL }}"/>
 <meta name="og:image" content="http://art.djnavarro.net{{ .Params.Trailer | relURL }}"/>
 
-<!-- googlefonts -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-
-<!-- bootstrap, popper and jquery -->
-<link rel="stylesheet" href="{{ "/css/bootstrap.css" | relURL }}" />
-
-<!-- owl carousel: http://owlcarousel2.github.io/OwlCarousel2 -->
-<link rel="stylesheet" href="{{ "/css/owl.carousel.css" | relURL }}" />
-
-<!-- simple lightbox: https://simplelightbox.com/ -->
-<link rel='stylesheet' href="{{ "/css/simple-lightbox.css"  | relURL }}" />
-
-<!-- theme CSS & JS -->
-<link rel="stylesheet" href="{{ "/css/main.css" | relURL }}" />
-
-<!-- magnific-popup -->
-<link rel="stylesheet" href="{{ "/css/magnific-popup.css" | relURL }}" />
-
-<!-- nice select -->
-<link rel="stylesheet" href="{{ "/css/nice-select.css" | relURL }}" />
-
-<!-- syntax highlighting -->
-<link rel='stylesheet' href='{{ "css/highlight.css" | relURL }}' title='hl'>
-{{ range .Params.html_dependencies }}
-  {{ . | safeHTML }}
-{{ end }}
