@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-  <!-- site header -->
   {{ partial "header.html" . }}
 
   <body>
 
-    <!-- splash image -->
+    <div class="logo"><a href="/"><img src="../../splash/logo.png"></a></div>
+
     {{ partial "splash.html" . }}
 
-    <!-- user is used to fill out the about section -->
     {{ partial "about.html" . }}
 
-    <!-- gallery links -->
     {{ partial "galleries.html" . }}
 
-    <!-- site footer -->
     {{ partial "footer.html" . }}
 
   </body>

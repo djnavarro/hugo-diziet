@@ -81,6 +81,12 @@ h6, .h6 { font-size: 18px; }
 
 /* ---------------- footer area formatting ---------------------- */
 
+.logo {
+  position: fixed;
+}
+
+/* ---------------- footer area formatting ---------------------- */
+
 .footer-area {
   margin-top: 8px;
   color: #777;
