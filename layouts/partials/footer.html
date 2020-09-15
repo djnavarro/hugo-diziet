@@ -9,18 +9,15 @@ hljs.configure({languages: []});
 hljs.initHighlightingOnLoad();
 </script>
 
-
-
 {{ partial "foot_custom.html" . }}
 
-  {{ with .Site.Params.footer }}
+{{ with .Site.Params.footer }}
   <div class="container">
-  <div class="row footer-bottom d-flex justify-content-between">
-  {{ . | markdownify }}
-  <br/><br/>
+    <div class="row footer-bottom d-flex justify-content-between">
+      {{ . | markdownify }}
+    </div>
   </div>
-  </div>
-  {{ end }}
+{{ end }}
 
 
 <!-- bootstrap, popper and jquery -->

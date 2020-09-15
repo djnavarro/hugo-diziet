@@ -81,21 +81,14 @@ h6, .h6 { font-size: 18px; }
 /* ---------------- footer area formatting ---------------------- */
 
 .footer-area {
-  background-color: #222222; }
-  .footer-area .footer-nav li {
-    margin-top: 8px; }
-    .footer-area .footer-nav li a {
-      color: #fff; }
-      .footer-area .footer-nav li a:hover {
-        color: #7a77ff; }
+  margin-top: 8px;
+  color: #7a77ff;
+}
 
 .footer-bottom {
   padding: 25px 0;
   text-align: center;
 }
-
-.footer-text a, .footer-text i {
-  color: #7a77ff; }
 
 
 /* ---------------- formatting tiles in a gallery--------------- */
