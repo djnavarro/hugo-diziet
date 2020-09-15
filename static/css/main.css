@@ -619,7 +619,7 @@ h6 {
 /* the splash class needs background-image to be specified */
 .splash {
   height: 100%;
-  background-image: "/static/splash/image2.png";
+  background-image: "/splash/image2.jpg";
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
