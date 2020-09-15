@@ -9,7 +9,7 @@ splash:
 ---
 
 ```{r include=FALSE}
-source(here::here("diziet.R"))
+source("../../diziet.R")) # diziet.R is in the "content" folder
 ```
 
 I’ve been a bad bad girl<br>I’ve been careless<br>with a delicate man<br>and it’s a sad sad world<br>when a girl will break a boy<br>just because she can<br>(Fiona Apple)
