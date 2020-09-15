@@ -8,7 +8,7 @@ splash:
 ---
 
 ```{r include=FALSE}
-source(here::here("diziet.R"))
+source("../../diziet.R")) # diziet.R is in the "content" folder
 ```
 
 Possibly, behind the diverse behaviors of humans and animals, as behind the various motions of planets and stars, we may discern the operation of universal laws (Roger Shepard)
