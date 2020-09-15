@@ -604,7 +604,7 @@ h6 {
 
 
 /* the splash class needs background-image to be specified */
-.splash {
+.splash-image {
   height: 100vh;
   background-image: url("/splash/image2.jpg");
   background-position: center;
@@ -612,15 +612,11 @@ h6 {
   background-size: cover;
 }
 
-.container-fullwidth {
+.splash-container {
   width: 100%;
   padding-left: 0;
   padding-right: 0;
 }
-
-
-
-
 
 .splash-caption {
   color: #fff;
