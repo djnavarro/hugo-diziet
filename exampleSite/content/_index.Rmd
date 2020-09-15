@@ -1,8 +1,9 @@
 ---
 title: "Art by Danielle Navarro"
-prefix: "art by"
-caption: "Danielle Navarro"
 summary: "Art by Danielle Navarro"
+splash:
+  prefix: "art by"
+  caption: "Danielle Navarro"
 trailer: "gallery/turmite/preview/turmite_16b.png"
 ---
 

@@ -5,21 +5,21 @@
     <div class="splash-image"></div>
     <div class="splash-caption-container">
 
-        {{ if isset .Params "prefix" }}
+        {{ if isset .Params.Splash "prefix" }}
           <div class="splash-caption-prefix">
-            {{ .Params.Prefix | markdownify }}
+            {{ .Params.Splash.Prefix | markdownify }}
           </div>
         {{ end }}
 
-        {{ if isset .Params "caption" }}
+        {{ if isset .Params.Splash "caption" }}
           <div class="splash-caption-main">
-            {{ .Params.Caption | markdownify }}
+            {{ .Params.Splash.Caption | markdownify }}
           </div>
         {{ end }}
 
-        {{ if isset .Params "suffix" }}
+        {{ if isset .Params.Splash "suffix" }}
           <div class="splash-caption-suffix">
-            {{ .Params.Suffix | markdownify }}
+            {{ .Params.Splash.Suffix | markdownify }}
           </div>
         {{ end }}
     </div>
