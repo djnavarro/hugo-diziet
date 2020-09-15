@@ -7,8 +7,10 @@ diziet <- list(
       '<img src="', preview, '/', images, '">',
       '</a>'
     )
-    cat('<div class="gal">')
+    cat('<div class="d-flex justify-content-between">\n')
+    cat('<div class="gal">\n')
     cat(paste(links, collapse="\n"))
+    cat('</div>\n')
     cat('</div>\n')
   }
 
