@@ -93,12 +93,6 @@ td, th {
   transition: all 0.3s ease 0s;
 }
 
-.section-full {
-  padding: 100px 0; }
-
-.section-half {
-  padding: 75px 0; }
-
 .text-center {
   text-align: center; }
 
@@ -238,9 +232,6 @@ td, th {
 
 .no-padding {
   padding: 0; }
-
-.section-bg {
-  background: #f9fafc; }
 
 @media (max-width: 767px) {
   .no-flex-xs {
@@ -604,10 +595,6 @@ h6 {
 
 .white-bg {
   background: #fff; }
-
-.section-top-border {
-  padding: 70px 0;
-  border-top: 1px dotted #eee; }
 
 .switch-wrap {
   margin-bottom: 10px; }
