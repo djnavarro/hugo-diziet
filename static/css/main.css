@@ -2,13 +2,14 @@
 
 body {
   background-color: #222;
-  color: #ddd;
+  color: #ccc;
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 300;
-  line-height: 1.625em;
+  line-height: 1.6;
   position: relative;
 }
+
 
 section {
   padding-bottom: 100px;
