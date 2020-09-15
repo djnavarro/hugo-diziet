@@ -25,6 +25,7 @@ a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
 }
+a:hover {color: #7a77ff;}
 
 h1, h2, h3,
 h4, h5, h6 {
@@ -82,7 +83,7 @@ h6, .h6 { font-size: 18px; }
 
 .footer-area {
   margin-top: 8px;
-  color: #7a77ff;
+  color: #777;
 }
 
 .footer-bottom {
@@ -94,10 +95,8 @@ h6, .h6 { font-size: 18px; }
 /* ---------------- formatting tiles in a gallery--------------- */
 
 .gal {
-  -webkit-column-count: 4;
-  /* Chrome, Safari, Opera */
-  -moz-column-count: 4;
-  /* Firefox */
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
   column-count: 4;
 }
 
