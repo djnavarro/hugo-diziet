@@ -53,7 +53,10 @@ h4, .h4 { font-size: 20px; }
 h5, .h5 { font-size: 18px; }
 h6, .h6 { font-size: 18px; }
 
-
+blockquote p {
+  margin: 100px;
+  font-size: 120%;
+}
 
 /* ---------------- about area formatting ---------------------- */
 
