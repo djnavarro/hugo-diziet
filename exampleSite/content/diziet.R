@@ -13,7 +13,7 @@ diziet <- list(
     # make a card for each person
     links <- paste0(
 
-      '<div class="card" style="width:400px">',
+      '<div class="card col-12 col-sm-12 col-md-4 col-lg-3">',
       '  <a href="', full, '/', full_images, '">',
       '    <img class="card-img-top" src="', preview, '/', preview_images, '">',
       '  </a>',
