@@ -17,7 +17,6 @@ diziet <- list(
       '  <a href="', full, '/', full_images, '">',
       '    <img class="card-img-top" src="', preview, '/', preview_images, '">',
       '  </a>',
-      '  <div class="card-body"></div>',
       '</div>'
     )
 
