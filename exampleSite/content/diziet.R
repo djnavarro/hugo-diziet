@@ -6,7 +6,7 @@ diziet <- list(
     links <- paste0(
       '<div class="col-md-3 col-sm-6 col-xs-12">',
       '<a href="', full, '/', full_images, '">',
-      '<img src="', preview, '/', preview_images, '">',
+      '<img width = 100% src="', preview, '/', preview_images, '">',
       '</a>',
       '</div>'
     )
