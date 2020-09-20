@@ -12,7 +12,7 @@
       <a href="{{ .URL }}">
         <img width=100% src={{ .Params.Trailer | relURL }}>
         <div class="gal-caption">
-          <span style="margin-left:5px">{{ .Title | markdownify }}</span>
+          {{ .Title | markdownify }}
         </div>
       </a>
     </div>
