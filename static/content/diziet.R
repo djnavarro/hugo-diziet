@@ -41,6 +41,28 @@ diziet <- list(
         Sys.sleep(1.5)
       }
     }
+  },
+
+  rebuild_site = function(clean = FALSE) {
+
+    # removes all .md files from content folder
+    if(clean == TRUE) {
+      content <- here::here("content")
+      md_files <- list.files(
+        path = content,
+        pattern = "\\.md$",
+        recursive = TRUE,
+        full.names = TRUE
+      )
+      lapply(md_files, file.remove)
+    }
+
+    outdated <- hugodown::site_outdated()
+    lapply(outdated, function(x) {
+      cat(x, "\n")
+      rmarkdown::render(x, quiet = TRUE)
+    })
+    return(invisible(NULL))
   }
 
 )
