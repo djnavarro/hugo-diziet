@@ -23,7 +23,9 @@ diziet <- list(
     )
 
     cat('<div class="container-fluid">')
+    cat('<div class="row">')
     cat(paste(links, collapse="\n"))
+    cat('</div>\n')
     cat('</div>\n')
   },
 
