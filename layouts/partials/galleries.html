@@ -11,8 +11,10 @@
     <div class="col-md-3 col-sm-6 col-xs-12 p-2">
       <a href="{{ .URL }}">
         <img class="img-fluid" src={{ .Params.Trailer | relURL }}>
-        <div class="gal-caption">
-          {{ .Title | markdownify }}
+        <div class="gal-caption-box">
+          <div class="gal-caption-text">
+            {{ .Title | markdownify }}
+          </div>
         </div>
       </a>
     </div>
