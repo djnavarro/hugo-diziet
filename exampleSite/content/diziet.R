@@ -1,29 +1,19 @@
 diziet <- list(
 
-  make_gallery = function(
-    preview = "preview",
-    full = "image",
-    preview_fmt = "jpg",
-    full_fmt = "png"
-  ) {
-
+  make_gallery = function(preview = "preview", full = "image", preview_fmt = "jpg", full_fmt = "png") {
     full_images <- list.files(full, pattern = paste0(full_fmt, "$"))
     preview_images <- list.files(preview, pattern = paste0(preview_fmt, "$"))
-
-    # make a card for each person
     links <- paste0(
-
-      '<div class="col-12 col-sm-12 col-md-4 col-lg-3">',
-      '  <a href="', full, '/', full_images, '">',
-      '    <img width="100%" src="', preview, '/', preview_images, '">',
-      '  </a>',
+      '<div class="col-md-3 col-sm-6 col-xs-12">',
+      '<a href="', full, '/', full_images, '">',
+      '<img width = 100% src="', preview, '/', preview_images, '">',
+      '</a>',
       '</div>'
     )
-
     cat('<div class="container-fluid">')
-    cat('<div class="row">')
+    cat('  <div class="row">')
     cat(paste(links, collapse="\n"))
-    cat('</div>\n')
+    cat('  </div>\n')
     cat('</div>\n')
   },
 
