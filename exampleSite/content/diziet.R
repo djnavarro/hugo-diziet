@@ -14,11 +14,9 @@ diziet <- list(
     links <- paste0(
 
       '<div class="col-12 col-sm-12 col-md-4 col-lg-3">',
-      '<div class="card">',
       '  <a href="', full, '/', full_images, '">',
-      '    <img width="100%" class="card-img-top" src="', preview, '/', preview_images, '">',
+      '    <img width="100%" src="', preview, '/', preview_images, '">',
       '  </a>',
-      '</div>',
       '</div>'
     )
 
