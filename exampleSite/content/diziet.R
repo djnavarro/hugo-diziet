@@ -4,7 +4,7 @@ diziet <- list(
     full_images <- list.files(full, pattern = paste0(full_fmt, "$"))
     preview_images <- list.files(preview, pattern = paste0(preview_fmt, "$"))
     links <- paste0(
-      '<div class="col-md-3 col-sm-6 col-xs-12 p-2">',
+      '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">',
       '<a href="', full, '/', full_images, '">',
       '<img width = 100% src="', preview, '/', preview_images, '">',
       '</a>',
