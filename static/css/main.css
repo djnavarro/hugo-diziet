@@ -118,8 +118,12 @@ blockquote p {
   position: absolute;
   top: 80%;
   left: 0;
-  width:100%;
+  width: 90%;
   height: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*.gal img {
