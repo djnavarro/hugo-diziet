@@ -10,13 +10,13 @@ diziet <- list(
       '</a>',
       '</div>'
     )
-#    cat('<div class="gal">')
+    cat('<div class="gal">')
     cat('<div class="container-fluid">')
     cat('  <div class="row">')
     cat(paste(links, collapse="\n"))
     cat('  </div>\n')
     cat('</div>\n')
-#    cat('</div>\n')
+    cat('</div>\n')
   },
 
   make_previews = function(path, fmt = "jpg") {

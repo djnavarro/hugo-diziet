@@ -107,8 +107,7 @@ blockquote p {
 /* ---------------- formatting tiles in a gallery--------------- */
 
 .gal p {
-  padding: 0;
-  margin: 0;
+  padding-bottom: 0;
 }
 
 /*.gal img {
