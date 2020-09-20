@@ -4,18 +4,18 @@ diziet <- list(
     full_images <- list.files(full, pattern = paste0(full_fmt, "$"))
     preview_images <- list.files(preview, pattern = paste0(preview_fmt, "$"))
     links <- paste0(
-      '<div class="gal">',
       '<div class="col-md-3 col-sm-6 col-xs-12 p-2">',
       '<a href="', full, '/', full_images, '">',
       '<img width = 100% src="', preview, '/', preview_images, '">',
       '</a>',
-      '</div>',
       '</div>'
     )
+    cat('<div class="gal">')
     cat('<div class="container-fluid">')
     cat('  <div class="row">')
     cat(paste(links, collapse="\n"))
     cat('  </div>\n')
+    cat('</div>\n')
     cat('</div>\n')
   },
 
