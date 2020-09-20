@@ -106,36 +106,15 @@ blockquote p {
 
 /* ---------------- formatting tiles in a gallery--------------- */
 
-.gal {
-  -webkit-column-count: 4; /* Chrome, Safari, Opera */
-  -moz-column-count: 4; /* Firefox */
-  column-count: 4;
+.gal p {
+  padding: 0;
+  margin: 0;
 }
 
-.gal img {
+/*.gal img {
   width: 100%;
   padding: 7px 0;
-}
-
-@media (max-width: 500px) {
-  .gal {
-    -webkit-column-count: 1;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 1;
-    /* Firefox */
-    column-count: 1;
-  }
-}
-
-.single-feature .icon {
-  margin-right: 20px; }
-  .single-feature .icon .lnr {
-    font-size: 40px;
-    font-weight: 300; }
-.single-feature h4 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 12px; }
+}*/
 
 
 /* ---------------- formatting for the splash images ---------------- */
