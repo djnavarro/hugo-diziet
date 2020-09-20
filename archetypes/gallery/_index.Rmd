@@ -5,7 +5,8 @@ summary: ''
 ---
 
 ```{r include=FALSE}
-source("../../diziet.R") # diziet.R is in the "content" folder
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
 ```
 
 ```{r echo=FALSE, results='asis'}
