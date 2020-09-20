@@ -14,5 +14,5 @@ source("../../diziet.R") # diziet.R is in the "content" folder
 Possibly, behind the diverse behaviors of humans and animals, as behind the various motions of planets and stars, we may discern the operation of universal laws (Roger Shepard)
 
 ```{r echo=FALSE, results='asis'}
-diziet$make_gallery()
+diziet$make_gallery(preview_fmt = "png")
 ```
