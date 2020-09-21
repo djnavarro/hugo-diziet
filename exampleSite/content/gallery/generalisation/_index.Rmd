@@ -3,7 +3,7 @@ title: "Generalisation"
 date: 2020-07-01
 trailer: "gallery/generalisation/preview/rectgenerate_1_12.png"
 splash:
-  image: "gallery/generalisation/image/rectgenerate_1_12.png"
+  image: "./image/rectgenerate_1_12.png"
   caption: "Generalisation"
 ---
 

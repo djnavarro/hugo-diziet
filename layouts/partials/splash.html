@@ -2,7 +2,7 @@
 <!-- start splash area -->
 <section>
   <div class="splash-container">
-    <div class="splash-image" style="background-image: url({{ .Params.Splash.Image | relURL }});"></div>
+    <div class="splash-image" style='background-image: url("{{ .Params.Splash.Image }}");'></div>
     <div class="splash-caption-container">
 
         {{ if isset .Params.Splash "prefix" }}
