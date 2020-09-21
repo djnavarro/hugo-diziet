@@ -1,8 +1,30 @@
 diziet <- list(
 
-  make_gallery = function(preview = "preview", full = "image", preview_fmt = "jpg", full_fmt = "png") {
-    full_images <- list.files(full, pattern = paste0(full_fmt, "$"))
-    preview_images <- list.files(preview, pattern = paste0(preview_fmt, "$"))
+  guess_name = function() {
+    path_here <- normalizePath(file.path("."))
+    path_split <- strsplit(path_here, .Platform$file.sep, TRUE)[[1]]
+    name_guess <- path_split[length(path_split)]
+    return(name_guess)
+  },
+
+  make_gallery = function(
+    name = diziet$guess_name(),
+    preview = "preview",
+    full = "image",
+    preview_fmt = "jpg",
+    full_fmt = "png"
+  ) {
+
+    # paths
+    root <- rprojroot::find_root("_hugodown.yaml")
+    static <- file.path(root, "static", "gallery", name)
+    content <- file.path(root, "content", "gallery", name)
+
+    # image names are found at render time by looking in the static folder
+    full_images <- list.files(file.path(static, full), pattern = paste0(full_fmt, "$"))
+    preview_images <- list.files(file.path(static, preview), pattern = paste0(preview_fmt, "$"))
+
+    # at build/view time, the images will end up in the relevant subfolder:
     links <- paste0(
       '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 p-2">',
       '<a href="', full, '/', full_images, '">',
@@ -10,6 +32,8 @@ diziet <- list(
       '</a>',
       '</div>'
     )
+
+    # wrap in html and write to document
     cat('<div class="gal">')
     cat('<div class="container-fluid">')
     cat('  <div class="row">')
