@@ -5,7 +5,7 @@ date: 2020-05-06
 summary: '"'
 trailer: "gallery/voronoise/preview/voronoise_17.png"
 splash:
-  image: "gallery/voronoise/image/voronoise_17.png"
+  image: "./image/voronoise_17.png"
   caption: "Voronoise"
 ---
 

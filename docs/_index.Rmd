@@ -3,10 +3,10 @@ output: hugodown::md_document
 title: "Diziet Theme for Hugo"
 summary: "Diziet Theme for Hugo"
 splash:
-  image: "splash/image1.png"
+  image: "./splash/image1.png"
   caption: "Diziet"
   suffix: "a visual blog theme for hugo"
-trailer: "gallery/turmite/preview/turmite_16b.png"
+trailer: "./splash/image1_smol.jpg"
 ---
 
 The Diziet theme for Hugo is designed for R users who want to run an art website, a photo blog, or similar website in the same style as https://art.djnavarro.net. It is a work in progress. Source code on [github](https://github.com/djnavarro/hugo-diziet)
