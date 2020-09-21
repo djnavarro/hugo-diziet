@@ -10,7 +10,8 @@
 #
 #    baseurl = "/hugo-diziet/"
 #
-baseurl = "/"
+baseurl = "/hugo-diziet/"
+#baseurl = "/"
 
 # Rewrite URLs to be relative to the current content.
 relativeurls = true
@@ -34,51 +35,10 @@ theme = "diziet"
 #   project = "/project/:year/:month/:day/:slug/"
 
 
-# These settings are used to specify the links in the main
-# navigation bar. Each item has a "name" (the link text), a
-# "url" (path to the page), and a "weight" (the order).
-# Something to keep in mind for new users: you won't find
-# specific files that correspond to all of these pages. See
-# the documentation for an explanation of where they come from
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "Galleries"
-    url = "/gallery/"
-    weight = 2
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 5
-
-
-
-# Parameters used throughout the site.
-#
-# - "siteHeader":   banner image at the top of the page
-# - "siteProfile":  profile image centered within the banner
-# - "description":  description of the site
-# - "footer":       content of the page footer
-# - "twitterImage": image to include within a twitter card
-# - "colorPage":    default page background color
-# - "colorText":    default text color for the page
-# - "colorFade":    default color to use when 'faded' text is needed
-# - "colorAccent1": default value for the first accent color (the "highlight")
-# - "colorAccent2": default value for the second accent color (the "lowlight")
-
 [params]
-    siteHeader = "header/banner.png"
-    siteProfile = "header/profile.png"
     description = "A website of one's own"
     footer = "A footer of one's own"
-    twitterImage = "https://djnavarro.github.io/hugo-calade/header/caladown.png"
-    colorPage = "#333333"    # background colour
-    colorText = "#dddddd"    # main text colour
-    colorFade = "#888888"    # faded text colour
-    colorAccent1 = "#ff69b4" # first accent colour ("highlight")
-    colorAccent2 = "#ba68c8" # second accent colour ("lowlight")
+    site = "https://djnavarro.github.io/hugo-diziet"
 
 
 # additional settings

@@ -13,6 +13,28 @@
   {{ . | safeHTML }}
 {{ end }}
 
+<!-- mobile specific meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- meta character set -->
+<meta charset="UTF-8">
+
+<!-- twitter card type -->
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- title for the card comes from page title -->
+<meta name="twitter:title" content="{{.Title}}"/>
+<meta name="og:title" content="{{.Title}}"/>
+
+<!-- URL for card image combines site parameter in config.toml with page trailer path -->
+<meta name="twitter:image:src" content="{{.Site.Params.Site}}{{.Params.Trailer | relURL}}"/>
+<meta name="og:image" content="{{.Site.Params.Site}}{{.Params.Trailer | relURL}}"/>
+
+<!-- read URL from the site parameter in config.toml -->
+<meta name="og:url" content="{{.Site.Params.Site}}"/>
+<meta name="twitter:url" content="{{.Site.Params.Site}}"/>
+
+
 {{ partial "head_custom.html" . }}
 
 </head>
