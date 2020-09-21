@@ -1,0 +1,178 @@
+/* ---------------- general purpose formatting ---------------------- */
+
+body {
+  background-color: #222;
+  color: #ccc;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
+  position: relative;
+}
+
+
+section {
+  padding-bottom: 100px;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+a:hover {color: #7a77ff;}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+  line-height: 1.2em !important;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+
+.h1, .h2, .h3,
+.h4, .h5, .h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #222222;
+}
+
+h1, .h1 { font-size: 36px; }
+h2, .h2 { font-size: 30px; }
+h3, .h3 { font-size: 24px; }
+h4, .h4 { font-size: 20px; }
+h5, .h5 { font-size: 18px; }
+h6, .h6 { font-size: 18px; }
+
+blockquote p {
+  margin: 100px;
+  font-size: 120%;
+}
+
+/* ---------------- about area formatting ---------------------- */
+
+.about-right {
+  padding-right: 8%;
+  padding-left: 5%;
+}
+
+@media (max-width: 1199px) {  /* medium screens */
+  .about-right {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .about-right h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 991px) { /* small screens */
+  .about-right {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+/* ---------------- logo / home button formatting ---------------------- */
+
+.logo {
+  left: 20px;
+  top: 20px;
+  position: fixed;
+  z-index: 1;
+}
+
+/* ---------------- footer area formatting ---------------------- */
+
+.footer-area {
+  margin-top: 8px;
+  color: #777;
+}
+
+.footer-bottom {
+  padding: 25px 0;
+  text-align: center;
+}
+
+
+/* ---------------- formatting tiles in a gallery--------------- */
+
+.gal p {
+  margin-bottom: 0
+}
+
+.gal-caption-box {
+  background-color: #22222288;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+}
+
+.gal-caption-text {
+  color: white;
+  font-size: 120%;
+  font-weight: 400;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*.gal img {
+  width: 100%;
+  padding: 7px 0;
+}*/
+
+
+/* ---------------- formatting for the splash images ---------------- */
+
+.splash-container {
+  width: 100%;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.splash-image {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.splash-caption-container {
+  position: absolute;
+  bottom: 20%;
+  right: 15%;
+  width: 70%;
+}
+
+.splash-caption-prefix, .splash-caption-suffix {
+  position: relative;
+  color: #fff;
+  text-align: right;
+  font-size: 150%;
+  padding-bottom: 15px;
+}
+
+.splash-caption-main {
+  position: relative;
+  color: #fff;
+  text-align: right;
+  font-size: 200%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.splash-caption-tweak { }

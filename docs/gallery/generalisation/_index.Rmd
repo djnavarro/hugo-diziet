@@ -1,0 +1,20 @@
+---
+output: hugodown::md_document
+title: "Generalisation"
+date: 2020-07-01
+trailer: "gallery/generalisation/preview/rectgenerate_1_12.png"
+splash:
+  image: "gallery/generalisation/image/rectgenerate_1_12.png"
+  caption: "Generalisation"
+---
+
+```{r include=FALSE}
+root <- rprojroot::find_root("_hugodown.yaml")
+source(file.path(root, "themes", "diziet", "R", "diziet.R"))
+```
+
+> Possibly, behind the diverse behaviors of humans and animals, as behind the various motions of planets and stars, we may discern the operation of universal laws (Roger Shepard)
+
+```{r echo=FALSE, results='asis'}
+diziet$make_gallery(preview_fmt = "png")
+```
