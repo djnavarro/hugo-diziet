@@ -10,8 +10,7 @@
 #
 #    baseurl = "/hugo-diziet/"
 #
-baseurl = "/hugo-diziet/"
-#baseurl = "/"
+baseurl = "/"
 
 # Rewrite URLs to be relative to the current content.
 relativeurls = true
